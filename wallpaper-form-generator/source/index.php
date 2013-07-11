@@ -91,6 +91,11 @@ else:
                     <h2><em>for</em> Monthly Wallpaper Calendars</h2>
                 </div>
             </header>
+            
+            <p class="pro-tip">
+                If you want more info, bla bla, go <a href="#">there</a>!
+            </p>
+            
             <form id="wallpaper-form" class="smashing-wallpapers-form"
                   data-validate="parsley" action="" method="post">
                   
@@ -98,7 +103,7 @@ else:
                     <legend>Basic Information</legend>
                     <ol>
                         <li>
-                            <label for="id-input-designer">What's your name?</label>
+                            <label for="id-input-designer" class="required">What's your name?</label>
                             
                             <div id="designer-errors" class="errors errors-right clearfix">
                                 <?php
@@ -122,7 +127,7 @@ else:
                         </li>
                     
                         <li>
-                            <label for="id-input-email">Please provide us with a valid email address:</label>
+                            <label for="id-input-email" class="required">Please provide us with a valid email address:</label>
                             
                             <div id="email-errors" class="errors errors-right clearfix">
                                 <?php
@@ -146,7 +151,7 @@ else:
                     
                         <li>
                             
-                            <label for="id-input-url">A link to your website URL or portfolio website:</label>
+                            <label for="id-input-url" class="required">A link to your website URL or portfolio website:</label>
                             
                             <div class="errors errors-right clearfix" id="url-errors">
                                 <?php
@@ -169,7 +174,7 @@ else:
                     
                         <li>
                             
-                            <label for="id-input-country">"Where are you from?"</label>
+                            <label for="id-input-country" class="required">Where are you from?</label>
                             
                             <div id="country-errors" class="errors errors-right clearfix">
                                 <?php
@@ -198,7 +203,7 @@ else:
                     <legend>Wallpapers Information</legend>
                     <ol>
                         <li>
-                            <label for="id-select-month" class="select-label">Month of the wallpaper:</label>
+                            <label for="id-select-month" class="select-label required">Month of the wallpaper:</label>
                             
                             <div id="month-errors" class="errors errors-right clearfix">
                                 <?php
@@ -240,7 +245,7 @@ else:
                         </li>
                     
                         <li>
-                            <label for="id-input-theme-title">Title of your wallpaper theme:</label>
+                            <label for="id-input-theme-title" class="required">Title of your wallpaper theme:</label>
                             
                             <div id="title-errors" class="errors errors-right clearfix">
                                 <?php
@@ -393,6 +398,10 @@ else:
                     </div>
                 </fieldset>
                 
+                <p class="required-hint">
+                    * required field
+                </p>
+                
                 <div class="form-footer">
                     <p id="subject-line"></p>
                     <button type="submit" class="major-button">Generate!</button>
@@ -400,13 +409,13 @@ else:
             </form>
             
             <footer class="clearfix">
-                <div class="made-by">
-                    <span>This tool is made with a lot of love by <a href="https://twitter.com/fredericmaquin">@fredericmaquin</a></span>
-                </div>
-                
                 <div class="proudly">
                     <span>Proudly presented by</span>
                     <a href="http://www.smashingmagazine.com"><img src="images/logo.png" alt="Smashing Magazine"></a>
+                </div>
+                
+                <div class="made-by">
+                    <span>This tool is made with a lot of love by <a href="https://twitter.com/fredericmaquin">@fredericmaquin</a></span>
                 </div>
             </footer>
         </div>

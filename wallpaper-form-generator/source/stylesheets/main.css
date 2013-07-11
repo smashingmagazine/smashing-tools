@@ -154,6 +154,32 @@ header {
     margin-bottom : 2em;
 }
 
+.pro-tip {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    padding: 1em;
+    background-color: #f2f2f2;
+}
+
+.pro-tip a {
+    display: inline;
+}
+
+.required:after {
+    content: "*";
+    color: rgb(201, 32, 27);
+    margin-left: 0.5em;
+}
+
+.required-hint {
+    color: rgb(201, 32, 27);
+    text-align: left;
+    width: 100%;
+    clear: both;
+}
+
 .fieldset-info {
     clear: both;
 }
@@ -166,7 +192,7 @@ header {
     display:block;
     
     margin-top: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .logo {
@@ -293,6 +319,7 @@ header {
 
 .two-options-fieldset input, .two-options-fieldset label {
     display: inline;
+    line-height: 1.5;
 }
 
 fieldset[id="id-calendar-fieldset"] input {
@@ -384,10 +411,11 @@ footer {
     width: 50%;
     vertical-align: middle;
     display: table-cell;
+    color: #888;
 }
 
 .made-by {
-    text-align: left;
+    text-align: right;
 }
 
 .made-by a {
@@ -411,7 +439,7 @@ border-bottom: 1px solid #41b7d8;
 }
 
 .proudly {
-    text-align: right;
+    text-align: left;
 }
 
 .proudly span {
