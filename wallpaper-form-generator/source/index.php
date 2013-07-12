@@ -93,7 +93,7 @@ else:
             </header>
             
             <p class="pro-tip">
-                If you want more info, bla bla, go <a href="#">there</a>!
+                Please make sure you have read the <a href="http://smashed.by/wp-guidelines">submission guidelines</a> before you fill out this form.
             </p>
             
             <form id="wallpaper-form" class="smashing-wallpapers-form"
@@ -103,7 +103,7 @@ else:
                     <legend>Basic Information</legend>
                     <ol>
                         <li>
-                            <label for="id-input-designer" class="required">What's your name?</label>
+                            <label for="id-input-designer" class="field-required">What's your name?</label>
                             
                             <div id="designer-errors" class="errors errors-right clearfix">
                                 <?php
@@ -127,7 +127,7 @@ else:
                         </li>
                     
                         <li>
-                            <label for="id-input-email" class="required">Please provide us with a valid email address:</label>
+                            <label for="id-input-email" class="field-required">Please provide us with a valid email address:</label>
                             
                             <div id="email-errors" class="errors errors-right clearfix">
                                 <?php
@@ -151,7 +151,7 @@ else:
                     
                         <li>
                             
-                            <label for="id-input-url" class="required">A link to your website URL or portfolio website:</label>
+                            <label for="id-input-url" class="field-required">A link to your website URL or portfolio website:</label>
                             
                             <div class="errors errors-right clearfix" id="url-errors">
                                 <?php
@@ -174,7 +174,7 @@ else:
                     
                         <li>
                             
-                            <label for="id-input-country" class="required">Where are you from?</label>
+                            <label for="id-input-country" class="field-required">Where are you from?</label>
                             
                             <div id="country-errors" class="errors errors-right clearfix">
                                 <?php
@@ -203,7 +203,7 @@ else:
                     <legend>Wallpapers Information</legend>
                     <ol>
                         <li>
-                            <label for="id-select-month" class="select-label required">Month of the wallpaper:</label>
+                            <label for="id-select-month" class="select-label field-required">Month of the wallpaper:</label>
                             
                             <div id="month-errors" class="errors errors-right clearfix">
                                 <?php
@@ -245,7 +245,7 @@ else:
                         </li>
                     
                         <li>
-                            <label for="id-input-theme-title" class="required">Title of your wallpaper theme:</label>
+                            <label for="id-input-theme-title" class="field-required">Title of your wallpaper theme:</label>
                             
                             <div id="title-errors" class="errors errors-right clearfix">
                                 <?php

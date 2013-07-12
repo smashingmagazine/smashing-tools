@@ -161,13 +161,17 @@ header {
 
     padding: 1em;
     background-color: #f2f2f2;
+    margin-bottom: 2em;
 }
 
 .pro-tip a {
     display: inline;
+    color: #41b7d8;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
-.required:after {
+.field-required:after {
     content: "*";
     color: rgb(201, 32, 27);
     margin-left: 0.5em;
@@ -308,18 +312,33 @@ header {
 }
 
 .two-options-fieldset {
-    min-height: 140px;
+    min-height: 155px;
 }
 
 .two-options-fieldset ul {
     list-style-type: none;
 
-    margin-top: 0.6em;
+    margin-top: 0;
 }
 
 .two-options-fieldset input, .two-options-fieldset label {
     display: inline;
     line-height: 1.5;
+}
+
+label[for="id-with-calendar"] {
+    position:relative;
+    top:-3px;
+}
+
+.calendar-errors-container, .file-format-errors-container {
+    padding-right: 1.5em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.file-format-errors-container ul, .calendar-errors-container ul {
+    margin:0;
 }
 
 fieldset[id="id-calendar-fieldset"] input {
@@ -357,6 +376,14 @@ input.parsley-success, textarea.parsley-success, select.parsley-success {
 
 div.parsley-error {
     background-color: rgba(201, 32, 27, 0.1) !important;
+}
+
+.parsley-error-list {
+    margin-bottom: 0.8em !important;
+}
+
+.resolution-errors .parsley-error-list {
+    padding: 0;
 }
 
 .errors-right {
@@ -420,9 +447,6 @@ footer {
 
 .made-by a {
     display: inline;
-    color: #41b7d8;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .made-by a:hover {
@@ -592,5 +616,6 @@ border-bottom: 1px solid #41b7d8;
     
     .proudly {
         margin-top: 2em;
+        margin-bottom: 1.5em;
     }
 }
