@@ -83,7 +83,7 @@ function validate_fields() {
     
     // Calendars
     if (!isset($_POST['input-calendars']) || $_POST['input-calendars'] != 'agreed') {
-       $errors['input-calendars'] = 'Please, <em>pleeease</em> check the box below. This will make a lot of folks enjoy your wallpaper <em>even more</em> — we promise!';
+       $errors['input-calendars'] = 'Please, <em>pleeease</em> check the box below. This will make a lot of folks enjoy your wallpaper even more — we promise!';
     }
     
     // File format
