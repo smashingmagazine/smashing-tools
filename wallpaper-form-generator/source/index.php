@@ -245,9 +245,9 @@ else:
                             <?php
                             $months = array(
                                 "Please choose a month" => "",
-                                "July 2013" => "07-13",
-                                "August 2013" => "08-13",
-                                "September 2013" => "09-13"
+                                date("F Y", strtotime("+1 Months"))  =>  date("m-y", strtotime("+1 Months")),
+                                date("F Y", strtotime("+2 Months"))  =>  date("m-y", strtotime("+2 Months")),
+                                date("F Y", strtotime("+3 Months"))  =>  date("m-y", strtotime("+3 Months"))
                             );
                             
                             foreach ($months as $name => $value):
