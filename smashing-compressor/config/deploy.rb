@@ -12,23 +12,14 @@ set :scm, :none
 set :copy_compression, :gzip
 set :use_sudo, false
 set :user, 'deploy'
+
+set :php_user, 'www-data'
+
 set :port, 122
 
 default_run_options[:pty] = true
 
 before 'deploy:update_code', "deploy:build_assets"
-
-namespace :install
-  task :debian
-    
-  if (run 'gem list image_optim -i')
-    sudo 'gem install image_optim'
-  end
-    
-    
-    sudo 'apt-get install '
-  end
-end
 
 namespace :deploy do
   task :build_assets do
