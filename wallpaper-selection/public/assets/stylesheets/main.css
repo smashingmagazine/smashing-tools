@@ -1,0 +1,204 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    padding: 1em;
+}
+
+body {
+    background: url(../images/body.gif);
+    font-family: "Proxima Nova", sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 0.2em 0;
+        line-height: 1.1;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 0.1em 0;
+    line-height: 1.1;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.wallpaper-infos {
+    margin-top: 2em;
+}
+
+.wallpaper-infos:after {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+.hidden {
+    display: none;
+}
+
+.content, .side-bar, .wallpapers {
+    min-height: 100%;
+    
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.wallpapers {
+    background-color: white;
+    width: 80%;
+    float: right;
+    
+    border-radius: 8px;
+    
+    border: 1px solid rgba(0,0,0,.1);
+    
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.05);
+    
+    padding: 1em;
+    
+    min-height: 100%;
+}
+
+.wallpaper-preview {
+    width: 30%;
+}
+
+.wallpaper-description {
+    float: right;
+    width: 65%;
+}
+
+.wallpaper-description:after {
+    clear:both;
+}
+
+.wallpaper-text {
+    resize: none;
+    min-height: 10em;
+    min-height: 7vw;
+        width: 100%;
+}
+
+.wallpapers ul {
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+.wallpaper-list li {
+    display: block;
+    padding: 1.5em;
+    
+    background-color: rgba(0, 0, 0,.04);
+    
+    border-radius: 8px;
+    
+    border: 1px solid rgba(0,0,0,.1);
+    
+    margin-top: 1em;
+}
+
+.wallpaper-name:before, .menu-list-item:after {
+    content: "[# " attr(data-position) "] ";
+}
+
+.no-number:before, .no-number:after {
+    display:none;
+}
+
+.refresh-banner {
+    text-align: right;
+}
+
+.refresh-button i {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.move-anchor {
+    padding: 0.7em;
+    background-color: rgba(0, 0, 0, .06);
+    
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.1);
+    
+    cursor: move;
+}
+
+.menu-list-item .move-anchor {
+    float: right;
+}
+
+.wallpaper-item-menu .move-anchor {
+    margin-left: 2em;
+}
+
+.wallpaper-item-menu {
+    float: right;
+}
+
+.menu-list-item .move-anchor {
+    padding: 0.4em;
+    font-size: 0.8em;
+}
+
+.side-bar {
+    width: 20%;
+    float:left;
+}
+
+.side-list {
+    background-color: rgba(255,255,255,.55);
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+    
+    min-height: 80%;
+    
+    text-align: center;
+    
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+.side-list h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    color:rgba(0, 0, 0, 0.4);
+    
+    font-size: 0.9em;
+    text-align: left;
+    
+}
+
+.side-list ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.side-list li {
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    
+    color: #222;
+}
+
+.side-list .btn {
+    margin-right:0.5em;
+}
+
+.logo {
+    margin: 1em;
+    width: 90%;
+}
