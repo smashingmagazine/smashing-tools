@@ -432,7 +432,7 @@ else:
             </div>
             
             <div class="made-by">
-                <span>This tool is made with a lot of love by <a href="https://twitter.com/fredericmaquin">@fredericmaquin</a></span>
+                <span>This tool is made with a lot of love by <a href="https://twitter.com/ephread">@ephread</a></span>
             </div>
         </footer>
         
