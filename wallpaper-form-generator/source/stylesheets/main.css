@@ -92,7 +92,7 @@ legend {
     padding: 0 .5em;
     font-size: 1.8em;
     
-    font-family: "Skolar Regular", serif;
+    font-family: "Skolar Latin Regular", serif;
 }
 
 label {
@@ -257,20 +257,20 @@ a:link {
 }
 
 .title h1 {
-    font-family: "Skolar Bold", serif;
+    font-family: "Skolar Latin Bold", serif;
     
     margin-top: 0.4em;
     margin-bottom: 0em;
 }
 
 .title h2 {
-    font-family: "Skolar Regular", serif;
+    font-family: "Skolar Latin Regular", serif;
     margin: 0;
     color: rgba(0,0,0,0.3);
 }
 
 .title em {
-    font-family: "Skolar Italic", serif;
+    font-family: "Skolar Latin Italic", serif;
 }
 
 .form-footer {
